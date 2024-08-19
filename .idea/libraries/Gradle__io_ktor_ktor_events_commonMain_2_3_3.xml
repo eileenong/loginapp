@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ktor:ktor-events:commonMain:2.3.3" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="io.ktor" artifactId="ktor-events" version="2.3.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/kotlinTransformedMetadataLibraries/io.ktor-ktor-events-2.3.3-commonMain-_htHDg.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-events/2.3.3/5e841a38ca7bd42c1c5ccaf51cea6d8766fe9930/ktor-events-2.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

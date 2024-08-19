@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="shoppinglist:jsMain" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="org.example" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="false" externalProjectId="shoppinglist" isHmppProject="true">
+        <dependsOnModuleNames>shoppinglist:commonMain</dependsOnModuleNames>
+        <sourceSets>
+          <sourceSet>shoppinglist.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xir-module-name=org.example:shoppinglist -Xir-only -Xir-per-module-output-name=shoppinglist -Xir-produce-klib-dir -main call -ir-output-dir $MODULE_DIR$/../../build/classes/kotlin/js/main" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="metaInfo" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+            <flagArg name="sourceMap" arg="true" />
+            <flagArg name="multiPlatform" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="moduleKind" arg="umd" />
+            <stringArg name="moduleName" arg="shoppinglist" />
+            <stringArg name="sourceMapEmbedSources" arg="never" />
+            <stringArg name="target" arg="v5" />
+            <stringArg name="apiVersion" arg="1.9" />
+            <stringArg name="languageVersion" arg="1.9" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.9.10/de62c537edfe46edc9987d6bad393550690da01c/kotlin-scripting-jvm-1.9.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.9.10/83fd6c933c3fc24672350b0950311b7eaa3e33fc/kotlin-scripting-common-1.9.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.10/72812e8a368917ab5c0a5081b56915ffdfec93b7/kotlin-stdlib-1.9.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.9.10/dafaf2c27f27c09220cee312df10917d9a5d97ce/kotlin-stdlib-common-1.9.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.9.10/398513a8534701579cccaf5953ea914416b4696c/kotlin-script-runtime-1.9.10.jar</arg>
+                <arg>$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../build/classes/kotlin/js/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/jsMain">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/jsMain/kotlin" type="kotlin-source" />
+    </content>
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="shoppinglist.commonMain" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-kotlinx-json-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-js-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-content-negotiation-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-js:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-kotlinx-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-js:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-react-js:18.2.0-pre.621" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-react-dom-js:18.2.0-pre.621" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-react-core-js:18.2.0-pre.621" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-csstype-js:3.1.2-pre.621" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-browser-js:1.0.0-pre.621" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-cssom-core-js:0.0.1-pre.621" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-web-js:1.0.0-pre.621" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-js-js:1.0.0-pre.621" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-dom-api-compat:1.9.10" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-events-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websocket-serialization-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websockets-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-io-js:2.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-js:0.20.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.9.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlinx-atomicfu-runtime:1.8.20" level="project" />
+  </component>
+</module>

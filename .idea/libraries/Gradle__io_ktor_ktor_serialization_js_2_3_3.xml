@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ktor:ktor-serialization-js:2.3.3" type="kotlin.js" external-system-id="GRADLE">
+    <properties groupId="io.ktor" artifactId="ktor-serialization-js" version="2.3.3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-serialization-js/2.3.3/aa4f83907cf52eff77173a1da2c8c43f320b172a/ktor-serialization-js-2.3.3.klib!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-serialization-js/2.3.3/2e24bdbe493f2884f38a6b1554a6b486940a910c/ktor-serialization-js-2.3.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-serialization-js/2.3.3/bb00b8ed4118e06a75537d140269cd1e63083b0c/ktor-serialization-js-2.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

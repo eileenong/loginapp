@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.litote.kmongo:kmongo-coroutine-serialization:4.5.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.litote.kmongo" artifactId="kmongo-coroutine-serialization" version="4.5.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-coroutine-serialization/4.5.0/ec44baa7bddc111764b74d94e40fad9c922b9ab0/kmongo-coroutine-serialization-4.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-coroutine-serialization/4.5.0/8e49edc70d6aa32fc6af69d7156e41f22ff61beb/kmongo-coroutine-serialization-4.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

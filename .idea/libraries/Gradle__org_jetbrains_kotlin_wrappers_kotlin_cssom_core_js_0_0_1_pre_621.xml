@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin-wrappers:kotlin-cssom-core-js:0.0.1-pre.621" type="kotlin.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlin-wrappers" artifactId="kotlin-cssom-core-js" version="0.0.1-pre.621" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-cssom-core-js/0.0.1-pre.621/3a5deb8928fb91c9a533126357810d03a85751ae/kotlin-cssom-core-js-0.0.1-pre.621.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-cssom-core-js/0.0.1-pre.621/93555ac49ad8b882ba4dee8bdd37dc9f5715ad3b/kotlin-cssom-core-js-0.0.1-pre.621-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
