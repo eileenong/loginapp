@@ -1,0 +1,22 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0-SNAPSHOT",
+  "private": true,
+  "workspaces": [
+    "packages/shoppinglist",
+    "packages/shoppinglist-test",
+    "packages_imported/kotlin/1.9.10",
+    "packages_imported/ktor-ktor-client-core/2.3.3",
+    "packages_imported/kotlin-test-js-runner/0.0.1",
+    "packages_imported/kotlin-react-core/18.2.0-pre.621",
+    "packages_imported/kotlin-csstype/3.1.2-pre.621",
+    "packages_imported/kotlin-cssom-core/0.0.1-pre.621",
+    "packages_imported/kotlin-react-dom/18.2.0-pre.621"
+  ],
+  "resolutions": {},
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

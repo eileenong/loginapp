@@ -1,0 +1,10 @@
+[
+  {
+    "username": "user1",
+    "hashedPassword": "pass1"
+  },
+  {
+    "username": "user2",
+    "hashedPassword": "pass2"
+  }
+]
