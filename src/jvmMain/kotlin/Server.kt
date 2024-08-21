@@ -13,18 +13,19 @@ import io.ktor.server.plugins.cors.routing.*
 import java.security.MessageDigest
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.encodeToString
+import org.litote.kmongo.coroutine.coroutine
+import org.litote.kmongo.eq
+import org.litote.kmongo.reactivestreams.KMongo
 
-val userList = mutableListOf(
-    User("user1", "pass1"),
-    User("user2", "pass2")
-)
+//val userList = mutableListOf(
+//    User("user1", "pass1"),
+//    User("user2", "pass2")
+//)
 
-//val fileContent = User::class.java.getResource("/Users.json").readText()
-//val userList = Json.decodeFromString<User>(fileContent)
-//fun getUsersFromJsonFile(): MutableList<User> {
-//    val jsonFileString = fileContent
-//    return Gson().fromJson(jsonFileString, object : TypeToken<List<User>>() {}.type)
-//}
+val client = KMongo.createClient().coroutine
+val database = client.getDatabase("userList")
+val userList = database.getCollection<User>()
+
 var currentUser: String = ""
 
 fun main() {
@@ -48,15 +49,15 @@ fun main() {
             staticResources("/", "static")
             route(User.path) {
                 get {
-                    call.respond(userList)
+                    call.respond(userList.find().toList())
                 }
                 post {
-                    userList += call.receive<User>()
+                    userList.insertOne(call.receive<User>())
                     call.respond(HttpStatusCode.OK)
                 }
                 delete("/{id}") {
                     val id = call.parameters["id"]?.toInt() ?: error("Invalid deletion request")
-                    userList.removeIf {it.id == id}
+                    userList.deleteOne(User::id eq id)
                     call.respond(HttpStatusCode.OK)
                 }
             }
@@ -66,7 +67,8 @@ fun main() {
                 }
                 post {
                     val user = call.receive<User>()
-                    if(userList.contains(user)) {
+                    val matchingUser = userList.findOne(User::username eq user.username)
+                    if(matchingUser != null && matchingUser.password == user.password) {
                         call.respond(HttpStatusCode.OK, "authenticated")
                         currentUser = user.username
                     } else {
